@@ -10,6 +10,15 @@ using Xamarin.Forms;
 
 namespace ImageSelector
 {
+    /// <summary>
+    /// Coder: Samuel T. Fatunmbi (Dev_GSammy)
+    /// In case, God forbid, I don't later understand the code I myself wrote in times to come, this code does the sole work
+    /// of picking an image from gallery. I should, if I have the time, create other tabs that do the same for single video
+    /// pictures and videos, and also for taking real time pictures and images. 
+    /// After getting the data needed, we upload it to the cloud with and return a stream of bits (url) representing the data received 
+    /// it could be typed into a browser and a download link will appear to download the image.
+    /// </summary>
+    
     public partial class MainPage : ContentPage
     {
         public MainPage()
